@@ -1,0 +1,56 @@
+.container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background: #E6F2F2;
+    gap: 32px;
+    font-family: 'IBM Plex Mono', monospace;
+    padding: 5rem 0;
+}
+.categoryContainer{
+    flex-basis: 50%;
+    margin-left: auto;
+}
+.categoryList{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.category{
+    display: flex;
+    justify-content: space-between;
+    width: 42vw;
+    padding: 10px 24px;
+    border-radius: 8px;
+    background: #FFFFFF;
+}
+.guide{
+    width: 80%;
+}
+.guideContainer{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background: #FFFFFF;
+    border-radius: 8px;
+    width: 40vw;
+    height: 176px;
+    padding: 10px 24px;
+}
+.guideInfo h2{
+    margin-bottom: 8px;
+}
+.profilePicture{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.buttonOutline{
+    border: 1px solid #008080;
+    border-radius: 8px;
+    padding: 9px 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#008080;
+    width: 83px;
+    margin-top: 3rem;
+}

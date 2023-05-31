@@ -1,0 +1,62 @@
+.container{
+    width: 100%;
+    height: 560px;
+    background-image: url("/BannerImage.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'IBM Plex Mono', monospace;
+}
+.title{
+    /* background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%); */
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 6.44%, #FFFFFF 95.08%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 140px;
+    line-height: 132px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.topNav{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    padding: 10px 20px;
+    width: 70%;
+    margin: auto;
+    position: relative;
+    top: 24px;
+}
+.topNav ul{
+    display: flex;
+    gap:40px;
+    list-style: none;
+    justify-content: left;
+}
+.topNav ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    margin-left: 24px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    background: #008080;
+    border-radius: 8px;
+    padding: 9px 24px;
+    height: fit-content;
+    color: white;
+    cursor: pointer;
+    width: 20vw;
+}
